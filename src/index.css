@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background: linear-gradient(to left, #ede574, #e1f5c4);}
+
+body {
+  display: grid;
+  height: 100vh;
+  margin: 0;
+  place-items: center center;
+}
+
+table {
+  border-spacing: 4px;
+  margin: auto;
+}
+td { 
+  border: 2px solid darkseagreen;
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+/* @media only screen and (min-width: 1750px) {
+  table {
+    border-spacing: 4px;
+  }
+} */
